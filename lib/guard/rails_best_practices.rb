@@ -1,5 +1,6 @@
 require 'guard'
-require 'guard/guard'
+
+
 
 require File.join(File.dirname(__FILE__), "rails_best_practices/version")
 
