@@ -5,7 +5,7 @@ require 'guard/compat/plugin'
 require File.join(File.dirname(__FILE__), "rails_best_practices/version")
 
 module Guard
-  class RailsBestPractices < Guard
+  class RailsBestPractices < Plugin
     autoload :Notifier, 'guard/rails_best_practices/notifier'
 
     def initialize(watchers = [], options = {})
